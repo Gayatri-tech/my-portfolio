@@ -5,8 +5,8 @@ import project3 from "../public/project3.png";
 
 const Projects = () => (
   <section id="projects" className="py-20 text-center">
-    <h2 className="text-3xl font-bold mb-4">My Personal Projects</h2>
-    <div className="flex flex-col gap-8 md:flex-row md:p-2">
+    <h2 className="text-3xl font-bold mb-6">My Personal Projects</h2>
+    <div className="flex flex-col gap-10 md:flex-row md:p-2">
       <ProjectCard
         title="Microsoft Clone"
         desc="Designed Microsoft-style interface with Tailwind CSS, ensuring
