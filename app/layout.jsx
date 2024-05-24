@@ -1,4 +1,4 @@
-import Navbar from "@/components/Header";
+import Header from "@/components/Header";
 import "./globals.css";
 import Footer from "@/components/Footer";
 
@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        <Header />
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
       </body>

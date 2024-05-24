@@ -12,8 +12,8 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold mb-4">Contact</h2>
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto">
+      <h2 className="md:text-3xl font-bold mb-4 text-xl">Contact</h2>
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto p-2">
         <input
           type="text"
           placeholder="Name"
